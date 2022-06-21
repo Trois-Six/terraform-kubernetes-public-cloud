@@ -2,7 +2,7 @@
 
 ```bash
 $ cp terraform.tfvars.template terraform.tfvars
-$ ## Set variables
+$ ## Set variables in terraform.tfvars
 ```
 # 2nd: Deploy
 
