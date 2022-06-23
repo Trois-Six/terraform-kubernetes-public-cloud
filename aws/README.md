@@ -14,7 +14,7 @@ $ terraform apply
 # 3rd: Get kubeconfig credential after deployment
 
 ```bash
-$ gcloud container clusters get-credentials $(terraform output -raw kubernetes_cluster_name) --region $(terraform output -raw region) --project $(terraform output -raw project_id)
+$ aws eks update-kubeconfig --region $(terraform output -raw region) --name $(terraform output -raw kubernetes_cluster_name)
 ```
 
 # 4th: Play!

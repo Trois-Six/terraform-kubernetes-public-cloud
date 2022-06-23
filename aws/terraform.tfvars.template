@@ -1,0 +1,6 @@
+aws_region            = "us-east-1"
+aws_azs               = ["us-east-1a", "us-east-1b", "us-east-1c"]
+prefix                = "prisma"
+vpc_cidr_block        = "10.36.0.0/16"
+public_subnet_prefix  = "10.36.0.0/17"
+private_subnet_prefix = "10.36.128.0/17"
