@@ -1,0 +1,4 @@
+project_id    = "my-project-id"
+region        = "us-central1"
+prefix        = "prisma"
+subnet_prefix = "10.36.0.0/24"
